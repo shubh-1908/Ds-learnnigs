@@ -72,17 +72,85 @@
 # fun(15)   
 
 
-def fun(n):
-    steps = 0
-    while n >= 10:
-        temp = n
-        sum_digit = 0 
-        while temp > 0:
-            sum_digit += temp % 10
-            temp = temp // 10
-        n = sum_digit    
-        steps += 1
-    print(steps)
+# def fun(n):
+#     steps = 0
+#     while n >= 10:
+#         temp = n
+#         sum_digit = 0 
+#         while temp > 0:
+#             sum_digit += temp % 10
+#             temp = temp // 10
+#         n = sum_digit    
+#         steps += 1
+#     print(steps)
 
-fun(877)
+# fun(877)
+
+
+
+# Default Argument
+
+# def default(name="shubh"):
+#     print("hello"+ name)
+# default()
+# default("mahesh")
+
+
+# def display (name, age):
+#     print(name+"is" + str(age) +"year old")
+# display(age=22, name="shubham")
+
+
+# Position Argument
+
+# def multiply(x,y):
+#     return x * y
+# print(multiply(2,5))
+
+
+
+# converting to float
+
+# int_value=100
+# string_value='1.5'
+# float_value=float(int_value)
+# print('int value as a float:',float_value)
+# print(type(float_value))
+# float_value=float(string_value)
+# print('string_value as a float:',float_value)
+# print(type(float_value))
+
+    
+
+# Arguments
+
+# def total (*number):
+#     sum=0
+#     for num in number:
+#         sum += num
+#     print("Sum:",sum)
+# total(1,2,3,4)
+
+
+# **key words
+
+# def show_details(**info):
+#     for key, value in info .items():
+#         print(f"{key}:{value}")
+# show_details (name="shubham",age=24, city="pune")      
+
+
+
+
+
+# Example usage:
+
+# print(largest_number([3, 7, 2, 9, 5]))  # Output: 
+# def larg(*num):
+#     print(max(num))
+
+# larg(11,20,33,66,55)
+
+
+
 
